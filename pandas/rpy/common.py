@@ -181,6 +181,7 @@ VECTOR_TYPES = {np.float64: robj.FloatVector,
                np.int32: robj.IntVector,
                np.int64: robj.IntVector,
                np.object_: robj.StrVector,
+               np.datetime64: robj.StrVector,
                np.str: robj.StrVector,
                np.bool: robj.BoolVector}
 
